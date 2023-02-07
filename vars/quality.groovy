@@ -1,5 +1,5 @@
 def quality_gate() {
-  timeout(time: 5, unit: MINUTES') {
+  timeout(time: 5, unit: 'MINUTES') {
   echo "Initializing quality gates.."
   def result = waitForQualityGate()
   if (result.status != 'OK') {
