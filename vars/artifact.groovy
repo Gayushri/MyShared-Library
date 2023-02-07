@@ -1,4 +1,4 @@
-def push()
+def push() {
 script {    
        pom = readMavenPom file: 'pom.xml'
 
@@ -16,3 +16,4 @@ script {
           repository: 'java_job', 
           version: "${pom.version}"
         }
+}
