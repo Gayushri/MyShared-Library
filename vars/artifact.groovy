@@ -1,4 +1,4 @@
-def artifact()
+def push()
 script {    
        pom = readMavenPom file: 'pom.xml'
 
