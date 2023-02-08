@@ -5,7 +5,7 @@ script {
          nexusArtifactUploader artifacts: [
          [artifactId: 'maven-project', 
          classifier: '', 
-         file: '/var/lib/jenkins/workspace/shared-job/webapp/target/webapp.war', 
+         file: '/webapp/target/webapp.war', 
          type: 'war']
           ],
           credentialsId: 'nexus', 
