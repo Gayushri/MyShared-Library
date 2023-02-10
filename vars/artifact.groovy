@@ -10,7 +10,7 @@ script {
           ],
           credentialsId: 'nexus', 
           groupId: 'com.example.maven-project', 
-          nexusUrl: '13.233.224.133:8081', 
+          nexusUrl: '13.233.244.8:8081', 
           nexusVersion: 'nexus3', 
           protocol: 'http', 
           repository: 'java_job', 
